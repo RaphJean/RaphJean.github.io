@@ -25,26 +25,27 @@ layout: base
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
       <li style="display: flex; align-items: center; justify-content: space-between;">
-        <div>
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <h3>
+        <div style="flex-grow: 1;">
+          <span class="post-meta" style="display: block;">{{ post.date | date: date_format }}</span>
+          <h3 style="margin: 0;">
             <a class="post-link" href="{{ post.url | relative_url }}">
               {{ post.title | escape }}
             </a>
           </h3>
           {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
+            <div>{{ post.excerpt }}</div>
           {%- endif -%}
-          <div style="flex-grow: 1; border-bottom: 1px solid #ccc; margin: 0 10px;"></div>
+          <div style="flex-grow: 1; border-bottom: 1px solid #676767; margin: 10px 0;"></div>
         </div>
         {%- if post.icon -%}
           <a href="{{ post.url | relative_url }}">
-            <img src="{{ post.icon }}" alt="Icône du poste" style="margin-left: 150px; width: 75px; height: 75px;">
+            <img src="{{ post.icon }}" alt="Icône du poste" style="margin-left: 10px; width: 75px; height: 75px;">
           </a>
         {%- endif -%}
       </li>
       {%- endfor -%}
     </ul>
+    
 
     {% if site.paginate %}
       <div class="pager">

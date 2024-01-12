@@ -30,6 +30,9 @@ layout: base
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
+          {%- if post.icon -%}
+        <img src="{{ post.icon }}" alt="Icône du poste" style="float: right; width: 30px; height: 30px;">
+      {%- endif -%}
         </h3>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}

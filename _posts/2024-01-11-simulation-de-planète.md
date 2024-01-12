@@ -11,5 +11,5 @@ La planète est définie au préalable comme étant composé de surfaces de terr
 
 La surface planète est un sytème fermé qui est sujet à diverses excitations externes : le rayonnement solaire, sa rotation. 
 
-Enfin, il sera possible dans ce projet, il est possible de visualiser le climat à partir des conséquences de celui-ci : une forte humidité.
+Enfin, il est possible de visualiser le climat à partir des conséquences de celui-ci : une forte humidité.
 

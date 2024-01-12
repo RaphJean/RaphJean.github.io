@@ -8,3 +8,6 @@ minima:
 author:
   name: John Smith
   email: "john.smith@foobar.com"
+header_pages:
+  - about.md
+  - portfolio.md

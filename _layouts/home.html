@@ -24,20 +24,22 @@ layout: base
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
-      <li style="display: flex; align-items: center; justify-content: space-between;">
+      <li style="display: flex; justify-content: space-between; align-items: center;">
         <div>
           <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <h3 style="display: flex; align-items: center;">
-            <a class="post-link" href="{{ post.url | relative_url }}" style="display: flex; align-items: center;">
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
               {{ post.title | escape }}
-              {%- if post.icon -%}
-                <img src="{{ post.icon }}" alt="Icône du poste" style="margin-left: 10px; width: 50px; height: 50px;">
-              {%- endif -%}
             </a>
           </h3>
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
         </div>
         {%- if post.icon -%}
-          <img src="{{ post.icon }}" alt="Icône du poste" style="margin-right: 20px; width: 30px; height: 30px;">
+          <a href="{{ post.url | relative_url }}">
+            <img src="{{ post.icon }}" alt="Icône du poste" style="margin-left: 10px; width: 30px; height: 30px;">
+          </a>
         {%- endif -%}
       </li>
       {%- endfor -%}

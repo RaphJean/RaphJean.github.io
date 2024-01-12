@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simulation de planète
-icon: ../images/planet-dalle.png
+icon: ../images/planet-dalle.webp
 ---
 
 

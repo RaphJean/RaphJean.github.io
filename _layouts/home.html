@@ -25,18 +25,21 @@ layout: base
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
       <li style="display: flex; align-items: center; justify-content: space-between;">
-        <div style="flex-grow: 1; display: flex; align-items: center;">
+        <div>
           <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <h3 style="margin: 0; flex-grow: 1;">
-            <a class="post-link" href="{{ post.url | relative_url }}" style="display: flex; align-items: center;">
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
               {{ post.title | escape }}
             </a>
           </h3>
-          <div style="flex-grow: 1; border-bottom: 1px solid #ccc; margin: 0 150px;"></div>
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+          <div style="flex-grow: 1; border-bottom: 1px solid #ccc; margin: 0 10px;"></div>
         </div>
         {%- if post.icon -%}
           <a href="{{ post.url | relative_url }}">
-            <img src="{{ post.icon }}" alt="Icône du poste" style="width: 75px; height: 75px;">
+            <img src="{{ post.icon }}" alt="Icône du poste" style="margin-left: 150px; width: 75px; height: 75px;">
           </a>
         {%- endif -%}
       </li>

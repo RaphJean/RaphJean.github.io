@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Interface Ansys et python
-icon: ../images/ansys-python.svg
+icon: ../images/ansys-python.png
 ---
 Python est le langage de programmation le plus utilisé pour faire l'interface entre des codes et des logiciels. La plupart des logiciels ont leurs propres API : c'est le cas d'Ansys avec pyAnsys. 
 Le module qui m'intéresse ici particulièrement est [pyMapdl](https://mapdl.docs.pyansys.com/version/stable/), qui permet d'appeler un modèle Ansys APDL directement depuis Python. En effet, une fois que le modèle a été sauvegardé au format .db, il est possible de le modifier : par exemple, de changer le prétraitement en modifiant certains paramètres, puis de lancer la simulation et enfin de récupérer les résultats.

@@ -12,3 +12,10 @@
     background: rgba(0, 0, 0, 0.1); /* Voile semi-transparent noir */
     pointer-events: none; /* Pour permettre les interactions avec les éléments sous le voile */
   }
+
+  .site-logo {
+    /* Taille du logo */
+    width: 50px; /* ou la taille que vous voulez */
+    height: auto; /* pour maintenir l'aspect ratio */
+    margin-right: 10px; /* Espace entre le logo et le titre */
+  }

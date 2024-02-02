@@ -1,1 +1,15 @@
 // Placeholder to allow overriding predefined variables smoothly.
+.site-logo {
+    margin-right: 10px; /* Espace entre le logo et le titre */
+    width: 50px; /* Taille plus petite du logo */
+    height: auto; /* Maintient le ratio d'aspect */
+  }
+
+  .logo-title-container {
+    display: flex; /* Utilise flexbox pour aligner logo et titre */
+    align-items: center; /* Centre les éléments verticalement */
+    /* Ajoutez un espace si nécessaire pour décaler du bord de la page */
+    padding-left: 2cm; /* Ajustez cette valeur pour décaler du bord gauche */
+  }
+  
+  

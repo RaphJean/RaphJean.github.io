@@ -13,3 +13,8 @@ Finalement, la propulsion vectorielle est également utilisée pour certains bat
 Pour concevoir un tel système, plusieurs options sont disponibles. Nous avons choisi d'opter pour l'approche la plus évidente. Un premier servo-moteur permet d'ajuster le premier angle $\theta_1$ du système, qui comprend également le second servo-moteur et l'hélice. Le second servo-moteur permet de régler l'angle $\theta_2$ de l'hélice.
 
 En réalité, la rotation de chacun de ces angles n'est pas directement fournie par le servo-moteur, mais elle est transmise via un mécanisme de piston.
+
+
+Le problème a été conçu en utilisant SolidWorks, en utilisant une méthode très puissante appelée "top-down". Cette approche implique de modéliser paramétriquement chacune des pièces du mécanisme en fonction des autres pièces avec lesquelles elles interagissent.
+
+Enfin, le mécanisme a été testé en l'imprimant à l'aide des imprimantes 3D du fablab de Polytechnique Montréal.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Résolution d'équations aux dérivées partielles et optimisation des solutions
+title: Résolution et optimisation d'équations aux dérivées partielles
 ---
 
 

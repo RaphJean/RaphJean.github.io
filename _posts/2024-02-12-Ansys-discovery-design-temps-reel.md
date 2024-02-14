@@ -26,5 +26,5 @@ J'ai testé l'utilisation du logiciel en créant une géométrie CAO d'un concep
 Une fois la géométrie importée dans Discovery, j'ai pu facilement lancer une simulation structurelle, une simulation topologique et une simulation thermique. La simulation thermique a rapidement montré que le dissipateur de chaleur pour le circuit électronique était surdimensionné, car l'afflux de chaleur restait concentré près du circuit. Ainsi, en modifiant rapidement la géométrie pour retirer de la matière, il est possible d'observer l'évolution de la température. L'ensemble de ces simulations ne m'a pris que 20 minutes, alors qu'autrefois il aurait fallu des journées pour un tel processus.
 
 <p align="center">
-  <img src="../../../images/ansys-discovery.png" alt="Alt text" width="800"  />
+  <img src="../../../images/ansys-discovery-2.png" alt="Alt text" width="800"  />
 </p>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: IA aversarielle
+title: IA adversarial
 ---
 Lors d'un projet scolaire, j'ai eu l'opportunité de développer une intelligence artificielle (IA) pour un jeu. Plusieurs algorithmes classiques ont été mis en œuvre, dont une réinterprétation du célèbre AlphaZero.
 

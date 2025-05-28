@@ -16,5 +16,5 @@ Une petite image prise à la fin de la fabrication du bras, je pouvais enfin le 
 
 
 <p align="center">
-  <img src="../../../images/raph_lerobot.png" alt="Alt text" width="800"  />
+  <img src="../../../images/raph_lerobot.png" alt="Alt text" width="450"  />
 </p>

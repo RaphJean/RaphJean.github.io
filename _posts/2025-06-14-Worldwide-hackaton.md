@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Participation au hackaton "le robot : worldwide"
+title: Participation au hackaton "le robot worldwide"
 ---
 # Plonger dans l’univers des robots… avec des émotions !
 
